@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/*font-family: 'Montserrat', sans-serif; */
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --greeninsh:#399e0233;
+    --black:#000000;
+}
+
+
+/* Header Area Start */
+
+.header__area{
+    background-color:var(--greeninsh);
+}
+.header__area-index{
+    height:322px;
+}
+
+.main__menu .navbar{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.main__menu-items ul li:not(:last-child){
+    margin-right: 32px;
+}
+
+.main__menu-items ul li a,
+.sign__in-btn,
+.sign__up-btn{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--black);
+    transition: all 0.4s ease-in-out;
+}
+
+.main__menu-items ul li:hover a{
+    color: var(--black);
+}
+
+.login__btn{
+    margin-left: 72px;
+}
+.sign__in-btn{
+    font-weight: 400;
+}
+
+.sign__in-btn{
+    margin-right: 24px;
+}
+.sign__up-btn{
+    width:112px;
+    height:40px;
+    border:1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 100px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0.1rem;
+}
+
+/* Header Area End */

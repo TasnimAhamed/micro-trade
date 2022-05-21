@@ -1,0 +1,29 @@
+@media  (min-width:320px) and (max-width:575px) {
+
+    /* Header Area Start */
+
+    .main__menu .navbar {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .login__btn{
+        flex-direction: column;
+        align-items:flex-start;
+        margin-left: 0;
+    }
+    .sign__in-btn{
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+    
+    /* Header Area End */ 
+
+}
+@media (min-width:576px) and (max-width:767px) {}
+@media (min-width:768px) and (max-width:991px) {}
+@media (min-width:992px) and (max-width:1199px) {}
+@media (min-width: 1200px) and (max-width: 1439px) {}
+@media (min-width:1440px) and (max-width:1599px) {}
+@media (min-width:1600px) and (max-width:1799px) {}
+@media (min-width:1800px) {}
