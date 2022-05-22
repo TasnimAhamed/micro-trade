@@ -34,7 +34,26 @@ h2{
     line-height: 39px;
     color: var(--black);
 }
-
+.view__all-btn{
+    text-align: right;
+    margin-top: 24px;
+}
+.view__all-btn a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: var(--black);
+    transition: all 0.4s ease-in-out;
+}
+.view__all-btn a:hover{
+    color: var(--green)
+}
 /* changeBg Animation */
 @keyframes changeBg {
     0% {
@@ -229,12 +248,12 @@ h2{
 .card__body{
     padding: 15px;
 }
-.card__body figure{
+.campaign__card .card__body figure{
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
 }
-.card__body p{
+.campaign__card .card__body p{
     font-family: 'Montserrat',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -286,10 +305,47 @@ h2{
     line-height: 21px;
     color: var(--black);
 }
-.card__body .campaign-img2 {
+.campaign__card .card__body .campaign-img2 {
     padding-top: 10px;
 }
-.card__body .campaign-img4 {
+.campaign__card .card__body .campaign-img4 {
     margin-bottom: 10px;
 }
 /* Campaign Area End */
+
+/* Business Area Start */
+.business__area{
+    padding-top: 88px;
+}
+.business__title{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.business__title h2{
+    margin-bottom: 16px;
+}
+.business__title p,
+.business__card p,
+.business__rating span:last-child{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--black);
+}
+.business__card{
+    background: var(--white);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+.business__card p{
+    font-weight: 500;
+}
+.business__rating span img{
+    margin-bottom: 5px;
+}
+.business__rating span:last-child{
+    color: #444444cc;
+}
+/* Business Area End */

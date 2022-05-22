@@ -72,10 +72,31 @@
     .campaign__title{
         margin-bottom: 20px;
     }
-    .campaign__row .col-sm-3:not(:last-child){
+    .campaign__row .col-sm-6{
         margin-bottom: 24px;
     }
+    .campaign__row .view__all-btn{
+        margin-top: 0;
+    }
     /* Campaign Area End */
+
+    /* Business Area Start */
+    .business__area{
+        padding-top: 72px;
+    }
+    .business__title{
+        margin-bottom: 20px;
+    }
+    .business__title h2{
+        margin-bottom: 8px;
+    }
+    .business__row .col-sm-6{
+        margin-bottom: 24px;
+    }
+    .business__row .view__all-btn{
+        margin-top: 0;
+    }
+    /* Business Area End */
 
 }
 @media (min-width:576px) and (max-width:767px) {
@@ -146,7 +167,22 @@
     .campaign__row .col-sm-6{
         margin-bottom: 22px;
     }
+    .campaign__row .view__all-btn{
+        margin-top: 0;
+    }
     /* Campaign Area End */
+
+    /* Business Area Start */
+    .business__area{
+        padding-top: 72px;
+    }
+    .business__row .col-sm-6{
+        margin-bottom: 22px;
+    }
+    .business__row .view__all-btn{
+        margin-top: 0;
+    }
+    /* Business Area End */
 
 }
 @media (min-width:768px) and (max-width:991px) {
@@ -203,7 +239,22 @@
     .campaign__row .col-sm-6{
         margin-bottom: 22px;
     }
+    .campaign__row .view__all-btn{
+        margin-top: 0;
+    }
     /* Campaign Area End */
+
+    /* Business Area Start*/
+    .business__area{
+        padding-top: 72px;
+    }
+    .business__row .col-sm-6{
+        margin-bottom: 22px;
+    }
+    .business__row .view__all-btn{
+        margin-top: 0;
+    }
+    /* Business Area End*/
 
 }
 @media (min-width:992px) and (max-width:1199px) {
