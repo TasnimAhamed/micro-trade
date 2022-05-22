@@ -1,9 +1,18 @@
 @media  (min-width:320px) and (max-width:575px) {
 
     /* Header Area Start */
+    .main__menu{
+        background:#fff;
+    }
     .main__menu .navbar {
         padding-top: 16px;
         padding-bottom: 16px;
+    }
+    .header__area{
+        min-height:72px;
+    }
+    .header__bottom-index{
+        margin-top: 72px;
     }
     .login__btn{
         flex-direction: column;
@@ -14,12 +23,50 @@
         padding-left: 0;
         margin-bottom: 10px;
     }
+    @keyframes changeBg {
+        0% {
+            background-color:#fff;
+        }
+    
+        100% {
+            background-color:#fff;
+        }
+    }
     /* Header Area End */ 
+
+    /* Banner Area Start */
+    .banner__content h1{
+        font-size:24px;
+        line-height:40px
+    }
+    .banner__content p{
+        margin-top: 8px;
+        padding:0 4px;
+        line-height:26px;
+    }
+    .search__area{
+        margin-top: 28px;
+    }
+    .search__area .search__text{
+        padding-left: 20px;
+        width: 52%;
+    }
+    .search__area .filter__text{
+        padding-left: 12px;
+        width:30%;
+    }
+    .search__area .search__btn{
+        width: 18%;
+    }
+    /* Banner Area End */
 
 }
 @media (min-width:576px) and (max-width:767px) {
 
-      /* Header Area Start */
+     /* Header Area Start */
+    .main__menu{
+        background:#fff;
+    }
     .main__menu .navbar {
         padding-top: 16px;
         padding-bottom: 16px;
@@ -33,12 +80,46 @@
         padding-left: 0;
         margin-bottom: 10px;
     }
+    @keyframes changeBg {
+        0% {
+            background-color:#fff;
+        }
+    
+        100% {
+            background-color:#fff;
+        }
+    }
     /* Header Area End */ 
+
+    /* Banner Header Area Start */
+    .banner__content h1{
+        font-size:32px;
+        line-height:48px;
+    }
+    .banner__content p{
+        padding: 0 18px;
+    }
+    .search__area{
+        margin-top: 32px;
+    }
+    .search__area .search__text{
+        width: 64%;
+    }
+    .search__area .filter__text{
+        width:21%;
+    }
+    .search__area .search__btn{
+        width: 15%;
+    }
+    /* Banner Header Area End */
 
 }
 @media (min-width:768px) and (max-width:991px) {
 
     /* Header Area Start */
+    .main__menu{
+        background-color: #fff;
+    }
     .main__menu .navbar {
         padding-top: 16px;
         padding-bottom: 16px;
@@ -52,7 +133,23 @@
         padding-left: 0;
         margin-bottom: 10px;
     }
-    /* Header Area End */ 
+    .navbar-toggler{
+        margin-top: 12px;
+    }
+    /* Header Area End */
+
+    /* Banner Area Start */
+    .banner__content h1{
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .banner__content p{
+        padding:0 12px;
+    }
+    .search__area{
+        margin-top: 32px;
+    }
+    /* Banner Area End */
 
 }
 @media (min-width:992px) and (max-width:1199px) {
@@ -66,6 +163,26 @@
     }
     /* Header Area End */
 
+    /* Banner Area Start */
+    .banner__content h1{
+        line-height: 48px;
+    }
+    .search__area {
+        width: 480px;
+    }
+    .search__area .search__text{
+        padding-left: 24px;
+        width: 64%;
+    }
+    .search__area .filter__text{
+        padding-left: 14px;
+        width: 22%;
+    }
+    .search__area .search__btn{
+        width: 14%;
+    }
+    /* Banner Area End */
+
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
 
@@ -77,6 +194,23 @@
         margin-left: 64px;
     }
     /* Header Area End */
+
+    /* Banner Content Area Start*/
+
+    .banner__content h1{
+        font-size: 32px;
+    }
+    .banner__content p{
+        padding: 0 32px;
+    }
+    .search__area .filter__text{
+        padding-left: 16px;
+    }
+    .search__area .search__text {
+        padding-left: 20px;
+    }
+
+    /* Banner Content Area End */
 
 }
 @media (min-width:1440px) and (max-width:1599px) {}

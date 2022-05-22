@@ -1,32 +1,13 @@
 $(document).ready(function() {
 
-
     $(window).scroll(function(){
         var navFixed = $(window).scrollTop();
-        if(navFixed > 100){
-            $(".main__menu").addClass("fixed-top fadeInDown");
+        if(navFixed > 10){
+            $(".header__area").addClass("changeBg");
         }else{
-            $(".main__menu").removeClass("fixed-top fadeInDown");
+            $(".header__area").removeClass("changeBg");
         }
     });
-
-
-    //Article Carousel Initializer
-    // $('.all__articles').slick({
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     autoplay: false,
-    //     autoplaySpeed: 2000,
-    // });
-    // $('.all__articles-sm').slick({
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: false,
-    //     autoplaySpeed: 2000
-    // });
-
-    //Test Carousel Initializer
-    
 
 })
 
