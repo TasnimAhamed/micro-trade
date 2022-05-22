@@ -1,16 +1,18 @@
 @media  (min-width:320px) and (max-width:575px) {
-
+    h2{
+        font-size:20px;
+    }
     /* Header Area Start */
-    .main__menu{
+    .header__area{
+        min-height:72px;
         background:#fff;
     }
+    
     .main__menu .navbar {
         padding-top: 16px;
         padding-bottom: 16px;
     }
-    .header__area{
-        min-height:72px;
-    }
+    
     .header__bottom-index{
         margin-top: 72px;
     }
@@ -35,6 +37,9 @@
     /* Header Area End */ 
 
     /* Banner Area Start */
+    .banner__area{
+        margin-top: -229px;
+    }
     .banner__content h1{
         font-size:24px;
         line-height:40px
@@ -60,12 +65,30 @@
     }
     /* Banner Area End */
 
+    /* Campaign Area Start */
+    .campaign__area {
+        padding-top: 72px;
+    }
+    .campaign__title{
+        margin-bottom: 20px;
+    }
+    .campaign__row .col-sm-3:not(:last-child){
+        margin-bottom: 24px;
+    }
+    /* Campaign Area End */
+
 }
 @media (min-width:576px) and (max-width:767px) {
-
+    h2{
+        font-size:28px;
+    }
      /* Header Area Start */
-    .main__menu{
+    .header__area{
+        min-height:72px;
         background:#fff;
+    }
+    .header__bottom-index{
+        margin-top: 72px;
     }
     .main__menu .navbar {
         padding-top: 16px;
@@ -92,6 +115,9 @@
     /* Header Area End */ 
 
     /* Banner Header Area Start */
+    .banner__area{
+        margin-top: -227px;
+    }
     .banner__content h1{
         font-size:32px;
         line-height:48px;
@@ -113,12 +139,28 @@
     }
     /* Banner Header Area End */
 
+    /* Campaign Area Start */
+    .campaign__area{
+        padding-top: 72px;
+    }
+    .campaign__row .col-sm-6{
+        margin-bottom: 22px;
+    }
+    /* Campaign Area End */
+
 }
 @media (min-width:768px) and (max-width:991px) {
+    h2{
+        font-size:28px;
+    }
 
     /* Header Area Start */
-    .main__menu{
+    .header__area{
         background-color: #fff;
+        min-height: 78px;
+    }
+    .header__bottom-index{
+        margin-top: 78px;
     }
     .main__menu .navbar {
         padding-top: 16px;
@@ -139,6 +181,9 @@
     /* Header Area End */
 
     /* Banner Area Start */
+    .banner__area{
+        margin-top: -224px;
+    }
     .banner__content h1{
         font-size: 30px;
         line-height: 48px;
@@ -150,6 +195,15 @@
         margin-top: 32px;
     }
     /* Banner Area End */
+
+    /* Campaign Area Start */
+    .campaign__area{
+        padding-top: 72px;
+    }
+    .campaign__row .col-sm-6{
+        margin-bottom: 22px;
+    }
+    /* Campaign Area End */
 
 }
 @media (min-width:992px) and (max-width:1199px) {

@@ -26,9 +26,16 @@ body{
 p{
     margin-bottom: 0;
 }
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--black);
+}
 
 /* changeBg Animation */
-
 @keyframes changeBg {
     0% {
         background-color:var(--greeninsh);
@@ -197,3 +204,92 @@ p{
 }
 
 /* Banner Area End */
+
+/* Campaign Area Start */
+
+.campaign__area{
+    padding-top: 88px;
+}
+.campaign__row .col-sm-6{
+    display: flex;
+    align-items: stretch;
+}
+.campaign__title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.campaign__card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000033;
+    border-radius: 3px;
+}
+.card__header img{
+    width: 100%;
+}
+.card__body{
+    padding: 15px;
+}
+.card__body figure{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card__body p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;    
+    opacity: 0.8;
+}
+.campaign__progress{
+    margin-top: 20px;
+    background:var(--white);
+    border: none;
+    border-radius: 0;
+    padding: 0 15px 15px;
+}
+.campaign__progress-bar{
+    width: 100%;
+    height: 3px;
+    background: #0000001a;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 6px;
+}
+.progress__bar{
+    width: 46%;
+    height: 3px;
+    background: var(--green);
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+}
+.campaign__progress-content {
+    display: flex;
+    justify-content: space-between;
+}
+.progress__value{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--green);
+}
+.progress__percent{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--black);
+}
+.card__body .campaign-img2 {
+    padding-top: 10px;
+}
+.card__body .campaign-img4 {
+    margin-bottom: 10px;
+}
+/* Campaign Area End */
