@@ -88,6 +88,12 @@ h2{
     background-color: var(--greeninsh);
 }
 
+.header__bottom-product-detail{
+    margin-top: 88px;
+    height:123px;
+    background-color: var(--greeninsh);
+}
+
 .main__menu .navbar{
     padding-top: 24px;
     padding-bottom: 24px;
@@ -109,7 +115,8 @@ h2{
     transition: all 0.4s ease-in-out;
 }
 
-.main__menu-items ul li:hover a{
+.main__menu-items ul li:hover a,
+.main__menu-items ul li:focus a{
     color: var(--black);
 }
 
@@ -362,7 +369,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .product__category h5{
     flex: 0 0 auto;
@@ -393,6 +400,10 @@ h2{
     right:0;
     top: 50%;
     z-index: -2;
+}
+.product__category.cloth__category h5{
+    width:100%;
+    margin-top: 96px;
 }
 .product__category p{
     flex: 0 0 auto;
@@ -473,14 +484,6 @@ h2{
 }
 
 /* Top Product Area End */
-
-
-
-
-
-
-
-
 
 
 
@@ -702,3 +705,67 @@ h2{
     margin-right: 28px;
 }
 /* Footer Area End */
+
+/* Single Product Area Start */
+
+.single__product-area{
+    margin-top: -106px;
+    padding-bottom: 48px;
+}
+
+.product__details{
+    padding-top: 28px;
+    padding-right: 128px;
+}
+
+.sing__product-name{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 28px;
+    color: var(--black);
+}
+.product__details > p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+.product__rating{
+    margin-bottom: 8px;
+    display: flex;
+}
+.product__rating img:not(:last-child){
+    margin-right: 4px;
+}
+.product__descriptions p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444cc; 
+}
+.product__descriptions p:not(:last-child){
+    margin-bottom: 24px;
+}
+.slick-prev:before, .slick-next:before{
+    color: var(--black);
+}
+.slick-prev,
+.slick-next{
+    position: absolute;
+    bottom: -36px;
+    top: unset;
+}
+.slick-prev{
+    left: 48%;
+}
+.slick-next{
+    left:52%;
+}
+/* Single Product Area End */

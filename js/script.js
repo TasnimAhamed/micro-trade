@@ -15,6 +15,15 @@ $(document).ready(function() {
         }
     });
 
+    // Single Product Slide
+    $('.all__product-row').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        arrows:true
+    });
+
 
 })
 
