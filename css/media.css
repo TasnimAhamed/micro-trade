@@ -206,6 +206,26 @@
     }
     /* Client Rating Area End */
 
+    /* Message Area Start */
+    .message__area{
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+    .form__left input{
+        margin-bottom: 20px;
+    }
+    .message__user-details{
+        margin-bottom: 12px;
+    }
+    .user__message{
+        margin-bottom: 12px;
+    }
+    .message__answer-wrapper{
+        padding-left: 0;
+        margin-top: 32px;
+    }
+    /* Message Area End */
+
 }
 @media (min-width:576px) and (max-width:767px) {
     h2{
@@ -376,6 +396,26 @@
 
     /* Client Rating Area End */
 
+    /* Message Area Start */
+    .message__area{
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+    .form__left input{
+        margin-bottom: 20px;
+    }
+    .message__user-details{
+        margin-bottom: 12px;
+    }
+    .user__message{
+        padding-right: 0;
+    }
+    .message__answer-wrapper{
+        padding-left: 0;
+        margin-top: 32px;
+    }
+    /* Message Area End */
+
 }
 @media (min-width:768px) and (max-width:991px) {
     h2{
@@ -530,6 +570,7 @@
     /* Top Product Area End */
 
     /* Client Rating Area Start */
+
     .rating__title h5{
         font-size:20px;
     }
@@ -544,6 +585,17 @@
     }
 
     /* Client Rating Area End */
+
+    /* Message Area Start */
+    .user__message {
+        padding-right: 6px;
+    }
+    
+    .message__answer-wrapper{
+        padding-left: 0;
+        margin-top: 32px;
+    }
+    /* Message Area End */
 
 }
 @media (min-width:992px) and (max-width:1199px) {
@@ -644,8 +696,17 @@
         padding-right:0;
     }
     
-
     /* Client Rating Area End */
+
+    /* Messgae Area Start */
+    .user__message {
+        padding-right: 10px;
+    }
+    .message__answer-wrapper{
+        padding-left: 0;
+        margin-top: 32px;
+    }
+    /* Messgae Area End */
 
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -695,6 +756,12 @@
     }
 
     /* Single Product Area End */
+
+    /* Message Area Start */
+    .user__message{
+        padding-right: 0;
+    }
+    /* Message Area End */
 
 }
 @media (min-width:1440px) and (max-width:1599px) {}
