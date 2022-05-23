@@ -98,6 +98,31 @@
     }
     /* Business Area End */
 
+    /* Volunteer Area Start */
+    .volunteer__area{
+        padding-top: 72px;
+    }
+    .volunteer__title {
+        margin-bottom: 20px;
+    }
+    .volunteer__content-header{
+        padding: 14px 18px;
+        border-radius: 3px 3px 0 0;
+    }
+    .volunteer__content-header h5{
+        font-size:15px;
+    }
+    .volunteer__content-body{
+        padding: 18px 18px;
+    }
+    .volunteer__content-body p{
+        margin-bottom: 20px;
+    }
+    .volunterr__img img{
+        border-radius: 0 0 3px 3px;
+    }
+    /* Volunteer Area End */
+
 }
 @media (min-width:576px) and (max-width:767px) {
     h2{
@@ -184,6 +209,25 @@
     }
     /* Business Area End */
 
+    /* Volunteer Area Start */
+    .volunteer__area{
+        padding-top: 72px;
+    }
+    .volunteer__content-header{
+        padding: 14px 24px;
+        border-radius: 3px 3px 0 0;
+    }
+    .volunteer__content-header h5{
+        font-size:16px;
+    }
+    .volunteer__content-body{
+        padding: 20px 24px;
+    }
+    .volunterr__img img{
+        border-radius: 0 0 3px 3px;
+    }
+    /* Volunteer Area End */
+
 }
 @media (min-width:768px) and (max-width:991px) {
     h2{
@@ -234,7 +278,7 @@
 
     /* Campaign Area Start */
     .campaign__area{
-        padding-top: 72px;
+        padding-top: 78px;
     }
     .campaign__row .col-sm-6{
         margin-bottom: 22px;
@@ -246,7 +290,7 @@
 
     /* Business Area Start*/
     .business__area{
-        padding-top: 72px;
+        padding-top: 78px;
     }
     .business__row .col-sm-6{
         margin-bottom: 22px;
@@ -255,6 +299,21 @@
         margin-top: 0;
     }
     /* Business Area End*/
+
+    /* Volunteer Area Start */
+    .volunteer__area{
+        padding-top: 78px;
+    }
+    .volunteer__content-header{
+        border-radius: 3px 3px 0 0;
+    }
+    .volunteer__content-header h5{
+        font-size:16px;
+    }
+    .volunterr__img img{
+        border-radius: 0 0 3px 3px;
+    }
+    /* Volunteer Area End */
 
 }
 @media (min-width:992px) and (max-width:1199px) {
@@ -288,6 +347,22 @@
     }
     /* Banner Area End */
 
+    /* Volunteer Area Start*/
+    
+    .volunteer__content-header{
+        padding: 14px 20px;
+    }
+    .volunteer__content-header h5{
+        font-size: 16px;
+    }
+    .volunteer__content-body{
+        padding: 18px 20px;
+    }
+    .volunteer__content-body p{
+        margin-bottom: 24px;
+    }
+    /* Volunteer Area End*/
+
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
 
@@ -316,6 +391,12 @@
     }
 
     /* Banner Content Area End */
+
+    /* Volunteer Area Start*/
+    .volunteer__content-body p{
+        margin-bottom: 22px;
+    }
+    /* Volunteer Area End*/
 
 }
 @media (min-width:1440px) and (max-width:1599px) {}
