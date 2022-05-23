@@ -17,13 +17,27 @@
         margin-top: 72px;
     }
     .login__btn{
-        flex-direction: column;
-        align-items:flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align:start;
+            -ms-flex-align:start;
+                align-items:flex-start;
         margin-left: 0;
     }
     .sign__in-btn{
         padding-left: 0;
         margin-bottom: 10px;
+    }
+    @-webkit-keyframes changeBg {
+        0% {
+            background-color:#fff;
+        }
+    
+        100% {
+            background-color:#fff;
+        }
     }
     @keyframes changeBg {
         0% {
@@ -168,7 +182,8 @@
         padding-top: 48px;
     }
     .custom__btn-wrapper{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .custom__btn-wrapper button{
         font-size:16px
@@ -244,13 +259,27 @@
         padding-bottom: 16px;
     }
     .login__btn{
-        flex-direction: column;
-        align-items:flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align:start;
+            -ms-flex-align:start;
+                align-items:flex-start;
         margin-left: 0;
     }
     .sign__in-btn{
         padding-left: 0;
         margin-bottom: 10px;
+    }
+    @-webkit-keyframes changeBg {
+        0% {
+            background-color:#fff;
+        }
+    
+        100% {
+            background-color:#fff;
+        }
     }
     @keyframes changeBg {
         0% {
@@ -435,8 +464,13 @@
         padding-bottom: 16px;
     }
     .login__btn{
-        flex-direction: column;
-        align-items:flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align:start;
+            -ms-flex-align:start;
+                align-items:flex-start;
         margin-left: 0;
     }
     .sign__in-btn{
