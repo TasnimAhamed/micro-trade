@@ -717,7 +717,9 @@ h2{
     padding-top: 28px;
     padding-right: 128px;
 }
-
+.single__product-img img{
+    width: 100%;
+}
 .sing__product-name{
     font-family: 'Montserrat',sans-serif;
     font-style: normal;
@@ -759,7 +761,7 @@ h2{
 .slick-prev,
 .slick-next{
     position: absolute;
-    bottom: -36px;
+    bottom: -40px;
     top: unset;
 }
 .slick-prev{
@@ -769,3 +771,92 @@ h2{
     left:52%;
 }
 /* Single Product Area End */
+
+/* Custom Button Area */
+
+.custom__btn-area{
+    padding-top: 64px;
+}
+.custom__btn-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.custom__btn-wrapper button{
+    width:240px;
+    height:84px;
+    border-radius: 0;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom__btn-wrapper button:not(:last-child){
+    margin-right: 80px;
+}
+
+.custom__btn-wrapper button:first-child{
+    border:2px solid #88C567;
+    color: #88C567;
+}
+
+.custom__btn-wrapper button:hover:first-child{
+    color: #fff;
+    background-color: #88C567;
+}
+.custom__btn-wrapper button:nth-child(2){
+    border:2px solid #FFAC5E;
+    color: #FFAC5E;
+}
+
+.custom__btn-wrapper button:hover:nth-child(2){
+    color: #fff;
+    background-color: #FFAC5E;
+}
+.custom__btn-wrapper button:last-child{
+    border:2px solid #3AB1D7;
+    color: #3AB1D7;
+}
+
+.custom__btn-wrapper button:hover:last-child{
+    color: #fff;
+    background-color: #3AB1D7;
+}
+
+/* Custom Button Area */
+
+/* Top Product Area */
+
+.top__product-img img{
+    width: 100%;
+}
+.goto__shop-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid var(--black);
+}
+.goto__shop-btn a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: var(--black);
+    text-decoration: none;
+    text-align: center;
+}
+.goto__shop-btn a span{
+    display: block;
+}
+/* Top Product Area */
