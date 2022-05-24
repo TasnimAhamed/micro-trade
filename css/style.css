@@ -1063,10 +1063,16 @@ h2{
     border-radius: 0;
     padding:6px;
     color:rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
 }
 .pagination__wrapper .pagination .page-item:hover .page-link{
     background: var(--white);
 }
+
+.pagination__wrapper .pagination .page-item:hover .page-link{
+    color:#399E02;
+}
+
 .pagination__wrapper .pagination .page-item .page-link.active{
     color: #399E02;
     border-bottom: 1px solid #399E02;
