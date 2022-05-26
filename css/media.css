@@ -14,7 +14,6 @@
         margin-top: 16px;
     }
 }
-
 /* Extra small Device CSS for all */
 @media  (min-width:320px) and (max-width:575px) {
     h2{
@@ -188,11 +187,12 @@
         padding-right: 0;
     }
     .slick-prev{
-        left: 42%;
+        left: 40%;
     }
     .slick-next{
-        left:50%;
+        right:40%;
     }
+
     /* Single Product Area End */
 
     /* Custom Button Wrapper */
@@ -409,6 +409,13 @@
     .product__details{
         padding-right: 0;
     }
+    .slick-prev{
+        left: 45%;
+    }
+    .slick-next{
+        right:45%;
+    }
+
      /* Single Product Area End */
 
     /* Custom Button Wrapper */
@@ -599,6 +606,14 @@
     .product__details{
         padding-right: 0;
     }
+
+    .slick-prev{
+        left: 46%;
+    }
+    .slick-next{
+        right:46%;
+    }
+
      /* Single Product Area End */
 
     /* Custom Button Wrapper */
@@ -735,6 +750,12 @@
     .product__details{
         padding-right: 0;
     }
+    .slick-prev{
+        left: 47%;
+    }
+    .slick-next{
+        right:47%;
+    }
      /* Single Product Area End */
 
     /* Top Products Area Start*/
@@ -805,6 +826,13 @@
 
     .product__details{
         padding-right: 0;
+    }
+
+    .slick-prev{
+        left: 47%;
+    }
+    .slick-next{
+        right:47%;
     }
 
     /* Single Product Area End */
