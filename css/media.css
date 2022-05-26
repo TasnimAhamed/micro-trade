@@ -1,3 +1,19 @@
+/* Extra small Device */
+@media (min-width: 320px) and (max-width:374px) {
+    .subscribe__content h2{
+        margin-bottom: 18px;
+    }
+    .subscribe__content form {
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .subscribe__content form input{
+        margin-right: 0;
+    }
+    .subscribe__content form button {
+        margin-top: 16px;
+    }
+}
 @media  (min-width:320px) and (max-width:575px) {
     h2{
         font-size:20px;
