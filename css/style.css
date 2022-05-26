@@ -962,7 +962,7 @@ h2{
     border:2px solid #88C567;
     color: #88C567;
 }
-
+.custom__btn-wrapper button:focus:first-child,
 .custom__btn-wrapper button:hover:first-child{
     color: #fff;
     background-color: #88C567;
@@ -971,16 +971,17 @@ h2{
     border:2px solid #FFAC5E;
     color: #FFAC5E;
 }
-
+.custom__btn-wrapper button:focus:nth-child(2),
 .custom__btn-wrapper button:hover:nth-child(2){
     color: #fff;
     background-color: #FFAC5E;
 }
+
 .custom__btn-wrapper button:last-child{
     border:2px solid #3AB1D7;
     color: #3AB1D7;
 }
-
+.custom__btn-wrapper button:focus:last-child,
 .custom__btn-wrapper button:hover:last-child{
     color: #fff;
     background-color: #3AB1D7;
