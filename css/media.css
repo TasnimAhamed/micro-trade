@@ -1,4 +1,4 @@
-/* Extra small Device */
+/* Extra small Device CSS for Subcribe Area*/
 @media (min-width: 320px) and (max-width:374px) {
     .subscribe__content h2{
         margin-bottom: 18px;
@@ -14,6 +14,8 @@
         margin-top: 16px;
     }
 }
+
+/* Extra small Device CSS for all */
 @media  (min-width:320px) and (max-width:575px) {
     h2{
         font-size:20px;

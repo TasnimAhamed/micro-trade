@@ -950,6 +950,10 @@ h2{
     transition: all 0.3s ease-in-out;
 }
 
+.custom__btn-wrapper button:focus{
+    box-shadow: none;
+}
+
 .custom__btn-wrapper button:not(:last-child){
     margin-right: 80px;
 }
