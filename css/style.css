@@ -904,10 +904,10 @@ h2{
     top: unset;
 }
 .slick-prev{
-    left: 48%;
+    left: 36%;
 }
 .slick-next{
-    right:48%;
+    right:60%;
 }
 /* Single Product Area End */
 
