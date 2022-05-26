@@ -827,6 +827,14 @@
     .product__details{
         padding-right: 0;
     }
+
+    .slick-prev{
+        left: 42%;
+    }
+    .slick-next{
+        right:52%;
+    }
+
     /* Single Product Area End */
 
     /* Message Area Start */
